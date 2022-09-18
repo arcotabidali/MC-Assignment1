@@ -1,6 +1,6 @@
 # MC-Assignment1
 
-## Pre-requsite Install Nodejs and a package manager NPM
+## Prerequisite Install Nodejs and a package manager NPM
 1. [Nodejs](https://nodejs.org/en/), [installation reference](https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac)
 
 ## step to run the program:
