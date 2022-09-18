@@ -21,15 +21,15 @@ Then "server running at PORT 8000" is logged and you are good to go.
 POST - multipart/form-data is supported at route http://localhost:8000/upload.
 Categories for images : animals, cars, travel, landscape  (keywords should be exact same inorder to upload them to the server)
 
-example : 
+###### Usage : 
 
-###### using with HTML 
+###### HTML 
 ```ruby
 <form action="http://localhost:8000/upload" method="post" enctype="multipart/form-data">
   <input type="file" name="travel" />
 </form>
 ```
-###### using with Postman
+###### Postman
 1. Select POST for http://localhost:8000/upload
 2. Under Body, select form-data
 3. Populate form-data KEY as 'cars' (file), VALUE select the file to be uploded.
