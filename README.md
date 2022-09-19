@@ -26,8 +26,9 @@ Categories for images : animals, cars, travel, landscape  (keywords should be ex
 ###### HTML 
 ```ruby
 <form action="http://localhost:8000/upload" method="post" enctype="multipart/form-data">
-  <input type="file" name="travel" />
-</form>
+    <input type="file" name="travel" />
+    <input type="submit" value="upload" />
+ </form>
 ```
 ###### Postman
 1. Select POST for http://localhost:8000/upload
