@@ -19,7 +19,7 @@ Then "server running at PORT 8000" is logged and you are good to go.
 ## APIs
 
 POST - multipart/form-data is supported at route http://localhost:8000/upload.
-Categories for images : animals, cars, travel, landscape  (keywords should be exact same inorder to upload them to the server)
+Categories for images : Favorites, Places, Persons, Things  (keywords should be exact same inorder to upload them to the server)
 
 ###### Usage : 
 
