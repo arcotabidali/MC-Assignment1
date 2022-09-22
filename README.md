@@ -26,13 +26,13 @@ Categories for images : Favorites, Places, Persons, Things  (keywords should be 
 ###### HTML 
 ```ruby
 <form action="http://localhost:8000/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="travel" />
+    <input type="file" name="Places" />
     <input type="submit" value="upload" />
  </form>
 ```
 ###### Postman
 1. Select POST for http://localhost:8000/upload
 2. Under Body, select form-data
-3. Populate form-data KEY as 'cars' (file), VALUE select the file to be uploded.
+3. Populate form-data KEY as 'Places' (file), VALUE select the file to be uploded.
 4. Click send!
 
