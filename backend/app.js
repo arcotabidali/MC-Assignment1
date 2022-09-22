@@ -30,7 +30,7 @@ const fileFilter = (req, file, cb)=>{
     }
 }
 
-const categoryAllowed =  [{name : 'travel', maxCount : 1}, {name : 'cars', maxCount : 1}, {name : 'animals', maxCount : 1}, {name : 'landscape', maxCount : 1}];
+const categoryAllowed =  [{name : 'Persons', maxCount : 1}, {name : 'Places', maxCount : 1}, {name : 'Favorites', maxCount : 1}, {name : 'Things', maxCount : 1}];
 
 var upload = multer({
     storage:storage,
